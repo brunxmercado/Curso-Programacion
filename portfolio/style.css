@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    cursor: url(img/cursor-right.png),auto;
 }
+a{ cursor: url(img/cursor-link.png), auto}
 .container {
     height: 100vh;
     width: 100%;
@@ -82,7 +84,7 @@ nav ul li a {
 }
 .dibujo{
     height: 90%;
-    position: fixed;
+    position:absolute;
     bottom: 0;
     right: 280px;
 }
