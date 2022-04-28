@@ -24,6 +24,7 @@
 }
 .logo{
     width: 160px;
+   margin-left: 0px;
     cursor: pointer;
 }
 nav{
@@ -81,7 +82,7 @@ nav ul li a {
 }
 .dibujo{
     height: 90%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 280px;
 }
