@@ -11,7 +11,7 @@
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
 }
 .navbar{
     width: 100%;
@@ -19,6 +19,8 @@
     margin: auto;
     display: flex;
     align-items: center;
+    font-family:'Questrial', sans-serif;
+    font-size: 28px;
 }
 .logo{
     width: 160px;
@@ -36,5 +38,50 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color:darkslateblue
+    color:#5E5198
+}
+.content h1 {
+    font-size: 75px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:#3F3668
+}
+.content p{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    color: #522CB1
+
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .btn {
+    display:inline-block;
+    background: linear-gradient(45deg, #D577F1, #8ED2E4);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    color:#fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.30) ;
+
+}
+.flechas{
+    margin-top: 40px;
+    display: flex;
+}
+.flechas img {
+    width: 40px;
+    margin-right: 25px;
+}
+.dibujo{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 280px;
 }
